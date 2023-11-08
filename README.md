@@ -14,12 +14,12 @@ When looking at the GDP formula, no variable is as contested and debated over as
 
 ![](/images/debt_clock.png)
 # Purpose
-The purpose of this research is to develop a model on the relationship between various components of government expenditure and the overall economic well-being of our population. With this, the intent is to determine if there is a significant positive or negative relationship between the spending categories and U.S. GDP per Capita.
+The purpose of this research is to develop a model on the relationship between various components of government expenditure and the overall economic well-being of our population. With this, the intent is to determine if there is a significant positive or negative relationship between the spending categories and U.S. GDP per Capita. The results I am most interested in is the effects of National Defense Spending on our economic well-being. This is due to our National Defense Spending being one of the most debated and it being the largest part of our discretionary budget.
 
-This model could be a useful insight for U.S. policymakers in the long-term planning and evaluation of policy and aid in the optimal allocation of government resources. 
+This model could be a useful insight for U.S. policymakers in the long-term planning and evaluation of policy and aid in the optimal allocation of government resources and could also serve as a valuable tool in the argument for why National Defense Spending is so critical to our nation. 
 
-## Proposed Question
-What is the effect of Government expenditures on our nations GDP Per Capita? How does each spending category independently effect the economy for U.S. Citizens?
+## Proposed Question(s)
+What is the effect of National Defense Spending on our nations GDP Per Capita? How does the other spending category independently effect the economy for U.S. Citizens as well?
 
 # Data
 All data used in this research was compiled from the Federal Reserve Economic Data(FRED), which was created and maintained by the Research Department at the Federal Reserve Bank of St. Louis. The following is a table of the time-series data taken from 1960 - 2023:
@@ -31,7 +31,8 @@ All data used in this research was compiled from the Federal Reserve Economic Da
 | Defense Spending             | Portion of federal government consumption expenditures and gross investment that covers the military activities of the U.S. Department of Defense |  
 | Nondefense Federal Spending  | Total government expenditures by the federal government of the United States on all programs and activities at the national level except those related to national defense |  
 | State & Local Spending       | Total government expenditures made by state and local governments in the United States.  |  
-| Government Transfer Payments | Cash or in-kind payments made by the government to individuals, households, or other entities that do not result in the government receiving goods, services, or assets in return. These payments are typically intended to provide financial assistance or support to individuals or groups within the economy. |  
+| Government Transfer Payments | Cash or in-kind payments made by the government to individuals, households, or other entities that do not result in the government receiving goods, services, or assets in return. These payments are typically intended to provide financial assistance or support to individuals or groups within the economy. |
+
 *Note: All data aggregated was done so in both the form of relative dollar amounts (USD & Billions of USD) and percent change by quarter. This allowed for various ways to visualize and model the data appropriately.*
 
 The construction of these datasets intentionally leaves out all data on the payment of interest and the total government spending reflects that as well. Interest payments on the national debt are a financial obligation of the U.S. government and are a result of borrowing to cover budget deficits and finance government operations. 
