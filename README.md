@@ -1,4 +1,4 @@
-# The Effects of US Government Spending on Individual Economic Well-Being 
+# The Effects of US National Defense Spending on Individual Economic Well-Being 
 
 # Background
 The US Economy is a complex system with numerous interrelated factors, including consumer behavior, business decisions, government policies, and global economic conditions. These factors can interact in unpredictable ways, making it difficult to accurately predict economic outcomes. Even more difficult is understanding how these conditions impact individual economic well-being for the citizens of our nation. 
