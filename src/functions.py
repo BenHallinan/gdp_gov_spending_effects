@@ -75,7 +75,7 @@ def interpret_regression_coeffs(coeffs):
         elif 0 > coeff > -1 and param != 'const':
              print(f"A one billion dollar increase in '{param}' is associated with an decrease in GDP per Capita by {abs(coeff):.4f}%")
         elif coeff < 0 and param != 'const':
-            print(f"A one billion dollar increase in '{param}' is associated with a decrease of {abs(coeff):.4f} in GDP per Capita.")
+            print(f"A one billion dollar increase in '{param}' is associated with a decrease of ${abs(coeff):.4f} in GDP per Capita.")
         else:
             print(f"'{param}' has no effect on the dependent variable.")
         
@@ -83,7 +83,10 @@ def interpret_regression_coeffs(coeffs):
 
 
 
+
+
+
 if __name__ == "__main__":
     # print_regression_summary('gdp_gov_spending.csv','GDP_Per_Capita',['Defense'])
-    results = print_regression_summary('gdp_gov_spending.csv','GDP_Per_Capita',['Defense','NonDefense','State_Local'],True)
+    results = print_regression_summary('gdp_gov_spending.csv','GDP_Per_Capita',['Defense','State_Local','Gov_Transfer'])
     interpret_regression_coeffs(results)
